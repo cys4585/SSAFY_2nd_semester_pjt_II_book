@@ -156,7 +156,7 @@ export const auth = {
           // 한 페이지에 60개씩
           cnt_per_page: 60,
           // PAGE는 랜덤하게(유저마다 다르게 보이도록)
-          page_num: Math.floor(Math.random() * (11 - 1) + 1),
+          page_num: Math.floor(Math.random() * 7) + 1,
         },
         // headers: { Authorization: `Bearer ${access_token}` },
       })
